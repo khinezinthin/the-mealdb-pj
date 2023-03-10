@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import {BsYoutube} from 'react-icons/Bs'
-import {BsBasket3Fill} from 'react-icons/Bs'
+import {BsYoutube} from 'react-icons/bs'
+import {BsBasket3Fill} from 'react-icons/bs'
 
 const Detail = () => {
   const { id } = useParams();
