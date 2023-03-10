@@ -1,0 +1,141 @@
+/* Navbar */
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(99, 3, 3);
+    /* box-shadow: 4px 5px 8px #1a1818; */
+}
+.navbar .nav:hover{
+    border: white 1px solid;
+}
+.active{
+    color: white;
+    border: white 1px solid;
+}
+
+/* home */
+.home-bg{
+    /* background-image: url('https://cdn4.vectorstock.com/i/1000x1000/92/18/food-recipe-vector-5409218.jpg'); */
+    background: linear-gradient(25deg, rgb(167, 99, 11) 50%, rgb(185, 144, 8) 50%);
+}
+/* .search-input{
+    padding: 10px 200px;
+    border: 2px solid gainsboro;
+} */
+.box{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+}
+.search-icon{
+    font-size: 30px;
+}
+.search-input{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
+/* Card  */
+.card{
+    box-shadow: black 0px 0.0625em 0.0625em, black 0px 0.125em 0.5em, black 0px 0px 0px 1px inset;
+}
+.img-name{
+    /* background-color: transparent; */
+    padding: 40px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: #1312129f;
+    backdrop-filter: blur(1px) contrast(160%);
+    color: white;
+    font-size: large;
+    transition: 1500ms;
+}
+.card:hover .img-name{
+    color: yellow;
+    background-color: rgba(161, 47, 6, 0.856);
+    backdrop-filter: blur(1px) contrast(50%);
+}
+.card-icon{
+    transition: 1000ms;
+}
+.card:hover .card-icon{
+    font-size: 30px;
+}
+
+/* detail */
+.detail-bg{
+    background-image: url("https://st2.depositphotos.com/1891407/10272/v/950/depositphotos_102722930-stock-illustration-cooking-kitchen-food-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recipe-card-bg{
+    background-color: white;
+}
+.recipe-card-body{
+    /* border: 5px solid black; */
+    box-shadow: black 0px 5px 15px;
+}
+.detail-btn{
+    border: 2px solid green;;
+    padding: 8px 20px;
+    border-radius: 100px;
+    /* background-color: whitesmoke; */
+    color: green;
+    transition: 1000ms;
+}
+.detail-btn:hover{
+    background-color: rgb(34 197 94);;
+    color: white;
+    border-color: rgb(34 197 94);
+}
+.focus{
+    background-color: rgb(34 197 94);;
+    color: white;
+    border-color: rgb(34 197 94);
+}
+.detail-yt-btn{
+    border: 2px solid green;;
+    padding: 8px 20px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    color: green;
+    transition: 1000ms;
+}
+.detail-yt-btn:hover{
+    color: red;
+}
+
+/* contact */
+/* .contact-btn{
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+} */
+
+/* footer */
+.footer{
+    background-color: rgb(27, 1, 1);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.footer-icon{
+    font-size: 30px;
+}
