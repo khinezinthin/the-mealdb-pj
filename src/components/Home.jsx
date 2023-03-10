@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BiSearch } from "react-icons/Bi";
+import { BiSearch } from "react-icons/bi";
 import { useNavigate, useParams } from "react-router-dom";
 
 const Home = () => {
